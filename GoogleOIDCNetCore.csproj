@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+      <UserSecretsId>4b7ef3f0-92c4-417f-a343-14493b78c6dc</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Google.Apis.Auth.AspNetCore3" Version="1.62.1" />
+      <PackageReference Include="Google.Apis.Drive.v3" Version="1.62.0.3155" />
+    </ItemGroup>
+
+</Project>
